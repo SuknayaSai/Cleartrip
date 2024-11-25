@@ -1,0 +1,1393 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "User book a Ticket",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2393673600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch the Application \"https://www.cleartrip.com/trains\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.cleartrip.com/trains\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Launch_the_Application(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-22T14:59:28.684Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6701327600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cleartrip.HooksClass.browserSetup()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Book A Ticket",
+        "description": "",
+        "id": "cleartrip.com;book-a-ticket",
+        "after": [
+          {
+            "result": {
+              "duration": 348521100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cleartrip.HooksClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 245130400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Enters Valid From Location",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Enters_Valid_From_Location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 236677700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Enters Valid To Location",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Enters_Valid_To_Location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7641818000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Selects Class from the dropdown",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Class_from_the_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2188569000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Selects Date from the Calander",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Date_from_the_Calander()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 65810400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Selects Adults from the dorpdown",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Adults_from_the_dorpdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131965500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Selects Children from the dropdown",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Children_from_the_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94000900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User Selects Senior men from the dropdown",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Senior_men_from_the_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 77960600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Selects Senior women from the dropdown",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Senior_women_from_the_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 332630000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User Clicks On Search Trains",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Clicks_On_Search_Trains()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129487700,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User Sign In to Clear Trip",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Sign_In_to_Clear_Trip()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 827825300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User Takes a ScreenShot1",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Takes_a_ScreenShot1()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Cleartrip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User book a Ticket",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2583684100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch the Application \"https://www.cleartrip.com/trains\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.cleartrip.com/trains\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Launch_the_Application(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-22T14:59:50.301Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5064306000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cleartrip.HooksClass.browserSetup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Book A Ticket with 1D List",
+        "description": "",
+        "id": "cleartrip.com;book-a-ticket-with-1d-list",
+        "after": [
+          {
+            "result": {
+              "duration": 512327600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cleartrip.HooksClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 432555800,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User Enters Valid From Location with 1D List",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Enters_Valid_From_Location_with_1D_List(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Hyderabad",
+                  "Tirupathi",
+                  "Kadapa"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1014797600,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User Enters Valid To Location",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Enters_Valid_To_Location()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7016370300,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User Selects Class from the dropdown",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Class_from_the_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 237185500,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User Selects Date from the Calander",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Date_from_the_Calander()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68161500,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User Selects Adults from the dorpdown",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Adults_from_the_dorpdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148576200,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User Selects Children from the dropdown",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Children_from_the_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154565600,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "User Selects Senior men from the dropdown",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Senior_men_from_the_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 140022700,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "User Selects Senior women from the dropdown",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Senior_women_from_the_dropdown()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 347462100,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "User Clicks On Search Trains",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Clicks_On_Search_Trains()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 178327900,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "User Sign In to Clear Trip",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Sign_In_to_Clear_Trip()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 805818200,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "User Takes a ScreenShot2",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Takes_a_ScreenShot2()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Cleartrip"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User book a Ticket",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 669344200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch the Application \"https://www.cleartrip.com/trains\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.cleartrip.com/trains\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Launch_the_Application(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-22T15:00:09.056Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4980370600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cleartrip.HooksClass.browserSetup()"
+            }
+          }
+        ],
+        "line": 54,
+        "name": "Book A Ticket with outline",
+        "description": "",
+        "id": "cleartrip.com;book-a-ticket-with-outline;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 711695800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cleartrip.HooksClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1690205400,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User Enters Valid From Location \"Chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Enters_Valid_From_Location(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138246300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User Enters Valid To Location \"Bangalore\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bangalore\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Enters_Valid_To_Location(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 8040382300,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User Selects Class from the dropdown",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Class_from_the_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 95629700,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User Selects Date from the Calander",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Date_from_the_Calander()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 171299900,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User Selects Adults from the dorpdown \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Adults_from_the_dorpdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 51785400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User Selects Children from the dropdown \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Children_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65048300,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User Selects Senior men from the dropdown \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Senior_men_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 75902500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User Selects Senior women from the dropdown \"1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Senior_women_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 424163100,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User Clicks On Search Trains",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Clicks_On_Search_Trains()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 115339300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User Sign In to Clear Trip",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Sign_In_to_Clear_Trip()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1186724800,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User Takes a ScreenShots \"Shot1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shot1\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Takes_a_ScreenShots(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Cleartrip"
+          },
+          {
+            "name": "@Outline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User book a Ticket",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2942231900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch the Application \"https://www.cleartrip.com/trains\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.cleartrip.com/trains\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Launch_the_Application(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-22T15:00:27.565Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4664676400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cleartrip.HooksClass.browserSetup()"
+            }
+          }
+        ],
+        "line": 55,
+        "name": "Book A Ticket with outline",
+        "description": "",
+        "id": "cleartrip.com;book-a-ticket-with-outline;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 324523400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cleartrip.HooksClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 302833500,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User Enters Valid From Location \"Hyderabad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hyderabad\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Enters_Valid_From_Location(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7429898900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User Enters Valid To Location \"Chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Enters_Valid_To_Location(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 746846700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User Selects Class from the dropdown",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Class_from_the_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 406417400,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User Selects Date from the Calander",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Date_from_the_Calander()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 132041700,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User Selects Adults from the dorpdown \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Adults_from_the_dorpdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1034652100,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User Selects Children from the dropdown \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Children_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 130795800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User Selects Senior men from the dropdown \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Senior_men_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 150115500,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User Selects Senior women from the dropdown \"2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Senior_women_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1236083600,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User Clicks On Search Trains",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Clicks_On_Search_Trains()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 145521300,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User Sign In to Clear Trip",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Sign_In_to_Clear_Trip()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 388407900,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User Takes a ScreenShots \"Shot2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shot2\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Takes_a_ScreenShots(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Cleartrip"
+          },
+          {
+            "name": "@Outline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User book a Ticket",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2735656100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch the Application \"https://www.cleartrip.com/trains\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.cleartrip.com/trains\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Launch_the_Application(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-22T15:00:47.623Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4856132200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cleartrip.HooksClass.browserSetup()"
+            }
+          }
+        ],
+        "line": 56,
+        "name": "Book A Ticket with outline",
+        "description": "",
+        "id": "cleartrip.com;book-a-ticket-with-outline;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 385762300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cleartrip.HooksClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 338504300,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User Enters Valid From Location \"Tirupathi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tirupathi\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Enters_Valid_From_Location(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 255364900,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User Enters Valid To Location \"Chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Enters_Valid_To_Location(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6168255700,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User Selects Class from the dropdown",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Class_from_the_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 412518100,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User Selects Date from the Calander",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Date_from_the_Calander()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 90489100,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User Selects Adults from the dorpdown \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Adults_from_the_dorpdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 68500900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User Selects Children from the dropdown \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Children_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50459800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User Selects Senior men from the dropdown \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Senior_men_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 154742400,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User Selects Senior women from the dropdown \"3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Senior_women_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1239053500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User Clicks On Search Trains",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Clicks_On_Search_Trains()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54101500,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User Sign In to Clear Trip",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Sign_In_to_Clear_Trip()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 831791200,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User Takes a ScreenShots \"Shot3\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shot3\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Takes_a_ScreenShots(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Cleartrip"
+          },
+          {
+            "name": "@Outline"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "User book a Ticket",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 469790000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User Launch the Application \"https://www.cleartrip.com/trains\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.cleartrip.com/trains\"",
+                  "offset": 28
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Launch_the_Application(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-11-22T15:01:05.284Z",
+        "before": [
+          {
+            "result": {
+              "duration": 4276428900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cleartrip.HooksClass.browserSetup()"
+            }
+          }
+        ],
+        "line": 57,
+        "name": "Book A Ticket with outline",
+        "description": "",
+        "id": "cleartrip.com;book-a-ticket-with-outline;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 381498100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.cleartrip.HooksClass.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1892590700,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "User Enters Valid From Location \"Kadapa\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kadapa\"",
+                  "offset": 32
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Enters_Valid_From_Location(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167456300,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "User Enters Valid To Location \"Hyderabad\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hyderabad\"",
+                  "offset": 30
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Enters_Valid_To_Location(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2648233500,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "User Selects Class from the dropdown",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Class_from_the_dropdown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3130757800,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "User Selects Date from the Calander",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Selects_Date_from_the_Calander()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 168274500,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "User Selects Adults from the dorpdown \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 38
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Adults_from_the_dorpdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 104731400,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "User Selects Children from the dropdown \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 40
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Children_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 109595200,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "User Selects Senior men from the dropdown \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 42
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Senior_men_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 222955300,
+              "status": "passed"
+            },
+            "line": 48,
+            "name": "User Selects Senior women from the dropdown \"4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"4\"",
+                  "offset": 44
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Selects_Senior_women_from_the_dropdown(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2235446200,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "User Clicks On Search Trains",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Clicks_On_Search_Trains()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50863800,
+              "status": "passed"
+            },
+            "line": 50,
+            "name": "User Sign In to Clear Trip",
+            "match": {
+              "location": "com.cleartrip.ClearTrip.user_Sign_In_to_Clear_Trip()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 447467400,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "User Takes a ScreenShots \"Shot4\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Shot4\"",
+                  "offset": 25
+                }
+              ],
+              "location": "com.cleartrip.ClearTrip.user_Takes_a_ScreenShots(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Cleartrip"
+          },
+          {
+            "name": "@Outline"
+          }
+        ]
+      }
+    ],
+    "name": "cleartrip.com",
+    "description": "",
+    "id": "cleartrip.com",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/cleartrip.feature",
+    "tags": [
+      {
+        "name": "@Cleartrip",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
